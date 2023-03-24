@@ -61,21 +61,9 @@ public class Main {
         plant2.setHeight(200);
         plant2.setEdible(false);
 
-        Plant plant3 = new Plant();
-        plant3.setSpecies("Buttercup");
-        plant3.setSpeciesInLatin("Ranunculaceae");
-        plant3.setAnnual(false);
-        plant3.setContinent("Europe");
-        plant3.setHeight(100);
-        plant3.setEdible(true);
+        Plant plant3 = new Plant("Buttercup", "Ranunculaceae", false, "Europe",100,true);
+        Plant plant4 = new Plant("Grapevine", "Vitis", false, "Europe",400,true);
 
-        Plant plant4 = new Plant();
-        plant4.setSpecies("Grapevine");
-        plant4.setSpeciesInLatin("Vitis");
-        plant4.setAnnual(false);
-        plant4.setContinent("Europe");
-        plant4.setHeight(400);
-        plant4.setEdible(true);
 
         plants.add(plant1);
         plants.add(plant2);
